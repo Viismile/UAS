@@ -2,7 +2,7 @@ from data_model.author import Author
 from data_model.book import Book
 
 
-class InputBook():
+class InputBook:
     def input(self):
         print("========================================")
         print("|              Add Book                |")

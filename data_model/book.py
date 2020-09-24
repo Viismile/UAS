@@ -2,7 +2,7 @@ from data_model.author import Author
 from data_model.publication import Publication
 
 
-class Book():
+class Book:
     def __init__(self, title="", author=Author(), price=0, copies=0):
         Publication.__init__(self, title, price, copies)
         self.__author = author

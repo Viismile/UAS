@@ -1,5 +1,5 @@
-class SearchHelper():
-    def __init__(self, books = []):
+class SearchHelper:
+    def __init__(self, books=[]):
         self.books = books
 
     def search_title(self, title):

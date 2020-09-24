@@ -1,4 +1,4 @@
-class ViewBook():
+class ViewBook:
     def __init__(self, books=[]):
         self.books = books
 
@@ -13,7 +13,7 @@ class ViewBook():
 
             idx = 0
             for book in self.books:
-                idx+=1
+                idx += 1
                 print("| {}  {}".format(idx, book.toRow()))
             print("=================================================================================")
 
